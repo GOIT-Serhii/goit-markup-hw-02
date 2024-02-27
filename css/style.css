@@ -105,13 +105,13 @@ font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
     cursor: pointer;
 }
-.hero-button:hover .hero-button:focus {
+.hero-button:hover, .hero-button:focus {
     background-color: #404BBF;
 }
 
 /* Team */
 .team {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -123,6 +123,10 @@ font-family: "Roboto", sans-serif;
     text-align: center;
     color: #2E2F42;
     
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
 }
 
 .team-subtitle {
