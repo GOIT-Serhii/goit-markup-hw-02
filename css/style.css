@@ -8,6 +8,7 @@ ul {
    list-style: none;
 }
 
+
 a {
     text-decoration: none;
 }
@@ -30,13 +31,12 @@ h3 {
 }
 
 p {
- 
-        
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
-       
 }
+
+
 /* Header */
 .hero {
     background-color: #2E2F42;
@@ -71,11 +71,15 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.02em;
 color: #2E2F42;
 }
-.header-list-link:hover {
+.header-list-link:hover, .header-list-link:focus {
     color: #404BBF;
 }
 
-.header-adress-mail {
+.header-adress {
+    font-style: normal;
+}
+
+.header-adress-link {
 font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -83,26 +87,16 @@ font-weight: 400;
     color: #434455;
 }
 
-.header-adress-tel {
-font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #434455;
+.header-adress-link:hover, .header-adress-link:focus {
+color: #404BBF;
 }
 
-.header-adress-mail:hover, .header-adress-mail:focus  {
-    color: #404BBF;
-}
 
-.header-adress-tel:hover, .header-adress-tel:focus {
-    color: #404BBF;
-}
 
 /* hero */
 
 .hero-button {
-
+font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -111,13 +105,13 @@ font-weight: 400;
     background-color: #4D5AE5;
     cursor: pointer;
 }
-.hero-button:hover {
+.hero-button:hover .hero-button:focus {
     background-color: #404BBF;
 }
 
 /* Team */
 .team {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 
 .team-title {
